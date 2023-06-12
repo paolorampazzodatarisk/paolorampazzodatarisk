@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #ab2d25;
+      color: #fff;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+.styled-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: white;
+      border-radius: 20px;
+      border: none;
+      color: black;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      width: 200px;
+    }
+
+  </style>
+</head>
+<body>
+<div style="font-size: 30px">Cardápio Especial</div>
+<div style="margin: 50px 0">
+<img src="data:image/png;base64,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" alt="Your Image"></div>
+<div style="margin-bottom: 20px;">Selecione uma opção</div>
+<div style="margin-bottom: 20px;" onclick="alert('Opção indisponível')"><button class="styled-button">Sobremesa</button></div>
+<div><a href="teste2.html"><button class="styled-button">Surpresa</button></a></div>
+</body>
+</html>
